@@ -1,0 +1,15 @@
+Best model (unidirectional features): GradientBoosting (XGBoost stand-in)
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.99      0.99      0.99      3000
+      Botnet       0.82      0.85      0.84       200
+  BruteForce       0.98      0.99      0.98       300
+         DoS       1.00      1.00      1.00       625
+Infiltration       1.00      0.97      0.99        38
+    PortScan       1.00      1.00      1.00       500
+   WebAttack       0.99      0.97      0.98       150
+
+    accuracy                           0.98      4813
+   macro avg       0.97      0.97      0.97      4813
+weighted avg       0.98      0.98      0.98      4813
